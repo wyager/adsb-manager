@@ -45,7 +45,12 @@ default-extensions:
 dependencies:
 - base >= 4.7 && < 5
 - typed-process
-
+- cassava
+- text
+- time
+- attoparsec
+- bytestring
+- vector
 
 library:
   source-dirs: src
